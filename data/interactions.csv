@@ -1,0 +1,12 @@
+interaction_id,customer_id,channel,interaction_date,issue_type,sentiment,status,transcript
+I5001,C1001,Call,2026-09-22,Claim Delay,Negative,Open,"Customer said the hospital claim has been pending for three weeks and asked for a clear timeline. They are unhappy because support promised a callback twice."
+I5002,C1001,Email,2026-09-15,Service Request,Neutral,Closed,"Customer requested policy document copy and nominee update confirmation."
+I5003,C1002,Call,2026-09-25,Billing,Negative,Open,"Customer reported that an EMI was debited twice and requested urgent reversal before the next billing cycle."
+I5004,C1003,Call,2026-09-18,Renewal,Positive,Closed,"Customer asked about renewal benefits and appreciated the no-claim bonus explanation."
+I5005,C1004,Chat,2026-09-29,General,Neutral,Closed,"Customer asked for repayment schedule and prepayment charges."
+I5006,C1005,Call,2026-09-20,Complaint,Negative,Open,"Customer complained about repeated document requests for the same health policy endorsement."
+I5007,C1006,Email,2026-09-28,General,Positive,Closed,"Customer requested investment statement and thanked the advisor for quick help."
+I5008,C1007,Call,2026-09-26,Billing,Negative,Open,"Customer said premium payment succeeded but the policy still shows unpaid in the app."
+I5009,C1008,Chat,2026-09-16,Service Request,Neutral,Closed,"Customer asked for address change and updated employment details."
+I5010,C1009,Call,2026-09-30,Claim Delay,Negative,Open,"Customer escalated a reimbursement claim delay and said they may switch providers if not resolved."
+I5011,C1010,Email,2026-09-12,Renewal,Positive,Closed,"Customer asked for credit line renewal options and showed interest in higher limit."

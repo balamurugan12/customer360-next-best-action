@@ -1,0 +1,13 @@
+account_id,customer_id,product_type,status,balance_or_cover,opened_date
+A9001,C1001,Health Insurance,Active,1500000,2020-04-12
+A9002,C1001,Term Insurance,Active,5000000,2021-01-22
+A9003,C1002,Personal Loan,Active,420000,2025-02-18
+A9004,C1003,Motor Insurance,Active,900000,2022-08-05
+A9005,C1004,Personal Loan,Active,180000,2026-01-20
+A9006,C1005,Health Insurance,Active,700000,2023-09-11
+A9007,C1006,Home Loan,Active,5600000,2019-05-06
+A9008,C1006,Wealth Plan,Active,1200000,2021-10-16
+A9009,C1007,Motor Insurance,Active,450000,2026-03-09
+A9010,C1008,Personal Loan,Active,320000,2024-04-25
+A9011,C1009,Health Insurance,Active,2000000,2020-07-30
+A9012,C1010,Credit Line,Active,260000,2023-12-14
