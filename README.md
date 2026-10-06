@@ -24,8 +24,11 @@ the ledger on redeploy. Reported outcomes do not change source case records.
 
 No business impact has been measured. The five-slide PDF deck and editable PPTX
 are ready. The source repository is public at
-https://github.com/balamurugan12/customer360-next-best-action. A screen-recorded
-demo, public deployment, and submission remain pending.
+https://github.com/balamurugan12/customer360-next-best-action, and the public
+Streamlit demo is at
+https://customer360-next-best-action-qx3knzue8j6jv9v6a6fnqh.streamlit.app/.
+The hosted app uses synthetic CSV data; it is not connected to Snowflake. A
+screen-recorded demo and event submission remain pending.
 See `docs/product-review.md` for the full review.
 
 ## Problem Statement

@@ -439,7 +439,7 @@ with submission_tab:
     st.write("**Submission checklist**")
     checklist = pd.DataFrame(
         [
-            ["GitHub repository", "Local repository only; remote not verified"],
+            ["GitHub repository", "Public repository verified"],
             ["Working local demo", "Ready"],
             ["Synthetic dataset", "Ready"],
             ["Snowflake tables and Customer 360 view", "Verified in trial account; 10 customers, 12 accounts, 11 interactions"],
@@ -449,7 +449,7 @@ with submission_tab:
             ["Submission deck", "5-slide PDF and editable PPTX prepared"],
             ["Architecture explanation", "Ready"],
             ["Demo script", "Ready"],
-            ["Deployment link", "Pending after GitHub push"],
+            ["Deployment link", "Public Streamlit app deployed"],
             ["Demo video", "Pending recording"],
         ],
         columns=["Item", "Status"],
