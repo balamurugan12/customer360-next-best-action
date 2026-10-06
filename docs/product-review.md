@@ -40,10 +40,12 @@ https://docs.google.com/presentation/d/13NuvogeWZdOF_RKe074MGKbfd9zoZVbmJmFcGYBW
    tables and the `CUSTOMER_360` view are now verified, but neither Cortex output
    nor the Snowflake view is consumed by the app. Add source-linked AI output and
    an explicit failure state only after a real model run.
-3. **P1: Video and deployment remain outstanding.** The 5-slide PDF and editable
-   PPTX are ready, and the source repository is public at
-   https://github.com/balamurugan12/customer360-next-best-action. No screen
-   recording or public deployment exists yet.
+3. **P1: Required CoCo CLI video evidence is absent.** The 5-slide PDF and
+   editable PPTX are ready. The source repository is public at
+   https://github.com/balamurugan12/customer360-next-best-action, and the public
+   demo is deployed at
+   https://customer360-next-best-action-qx3knzue8j6jv9v6a6fnqh.streamlit.app/.
+   The deployed app remains CSV-backed and is not connected to Snowflake.
 4. **P2: Scoring and impact are unvalidated.** Ten synthetic customers and eleven
    interactions cannot establish accuracy or retention lift. Hand-set weights
    count all history and can saturate. Financial value reduces the risk heuristic
@@ -94,8 +96,9 @@ closed claims, older unresolved cases, and explanation reconciliation.
 The live browser renders the updated local app. Tests use temporary ledgers, so
 test outcomes do not inflate the demo's real recorded metrics. Snowflake seed
 execution was done in Snowsight; CoCo CLI queries used the verified `sql-author`
-and `data-quality` skills. Cortex inference, public deployment,
-model quality, and load/scale are not verified.
+and `data-quality` skills. Cortex inference, hosted-app persistence, model
+quality, and load/scale are not verified. Public deployment was verified on
+Streamlit Community Cloud on 6 October 2026.
 Visual inspection confirmed the 694px-wide in-app browser layout without page-level
 horizontal overflow. The browser ignored the requested 390px override, so a true
 mobile-width render has not been verified.

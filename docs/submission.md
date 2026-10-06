@@ -61,7 +61,7 @@ https://github.com/balamurugan12/customer360-next-best-action
 
 ## Deployment Link
 
-Add your Streamlit, Snowflake, or other deployment link here after publishing the app.
+https://customer360-next-best-action-qx3knzue8j6jv9v6a6fnqh.streamlit.app/
 
 ## Demo Video Link
 
